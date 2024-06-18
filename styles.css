@@ -9,54 +9,189 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    background-color: #f4f4f4; /* Фон на случай отсутствия изображения */
-}
-
-.logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;
-    z-index: 10;
-}
-.logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Изображение будет подстраиваться под размеры контейнера */
-}
-
-.header-image {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.header-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    color: #303436;
 }
 
 main {
+    padding-top: 76px;
     flex: 1;
+    background-color: #F6EEED;
 }
 
-section {
+/* HEADER */
+.ma-header.ma-section {
+    padding-bottom: 0;
+    padding-top: 0;
+    top: 0;
+    z-index: 5;
+}
+.ma-header {
+    background-color: #fff;
+    border-bottom: .5px solid #c9cdcf;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .025);
+    position: fixed;
+    width: 100%;
+}
+.ma-section {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+}
+.ma-header>.ma-section-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0 2rem;
+    justify-content: space-between;
+}
+.ma-section-wrapper {
+    margin: 0 auto;
+    max-width: 104rem;
+    width: 100%;
+    z-index: 3;
+}
+.ma-header__logo {
+    display: flex;
+}
+.ma-header__logo>img {
+    height: auto;
+    max-width: 13rem;
+    width: 100%;
+}
+.ma-header__menu-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.ma-header__menu-toggle {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    right: 1rem;
+    top: 1.25rem;
+    transition: all .25s ease-in-out;
+    z-index: 999999;
+}
+.ma-header__menu {
+    display: block;
+    position: absolute;
+    right: -99em;
+    top: 0;
+    transition: all .25s ease-in-out;
+    width: 100vw;
+    z-index: 9999;
+}
+.ma-menu__items {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    gap: .75rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ma-menu__items li>a {
+    align-items: center;
+    color: #303436;
+    display: flex;
+    flex-direction: row;
+    gap: .25rem;
+    padding: 1.75rem 1rem;
+}
+.ma-menu__items .active-nav, .ma-menu__items li>a:hover {
+    box-shadow: inset 0 4px 0 0 #f04c4c;
+}
+.ma-header__menu.open {
+    background-color: rgba(48, 52, 54, .90);
+    right: 0;
+    width: 100vw;
+}
+.ma-header__menu {
+    display: block;
+    position: absolute;
+    right: -99em;
+    top: 0;
+    transition: all .25s ease-in-out;
+    width: 100vw;
+    z-index: 9999;
+}
+.ma-header__menu.open .ma-menu__items {
+    background-color: #91a2ba;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap: 0;
+    height: 100%;
+    max-width: 16rem;
+    padding: 5rem 1.5rem 1.5rem;
+    width: 100%;
+}
+.ma-header__menu.open .ma-menu__items>li {
+    border-bottom: .5px solid rgba(0, 0, 0, .25);
+    width: 100%;
+}
+.ma-header__menu.open .ma-menu__items>li>a {
+    color: #fff;
+    padding: 1.25rem .75rem;
+}
+@media screen and (min-width: 1250px) {
+    .ma-section {
+        align-items: stretch;
+        padding: 3rem;
+    }
+    .ma-header__menu-toggle {
+        display: none;
+    }
+    .ma-header__menu {
+        display: block;
+        height: auto;
+        position: relative;
+        right: 0;
+        width: auto;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .ma-header.ma-section {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}
+/* HEADER END */
+footer .sp-section-content .sp-mobile-col{display:none}
+footer .sp-section-content .sp-row{display: block;}
+main .sp-section{color: #303436;background-color: #F6EEED;}
+main .sp-section-content{padding:30px;}
+main .sp-section .sp-divider-block .sp-divider-holder{border-bottom-color: #F04C4C;}
+.sp-section-content .sp-block-content{font-size: 16px;line-height: 2;}
+main .image-wrapper{display: flex; align-items: center; justify-content: center;}
+main .image-wrapper .sp-image-block{width: 100%;}
+@media (max-width: 715px) {
+    footer .sp-section-content .sp-mobile-col{display:block}
+    footer .sp-section-content .sp-row{display: none;}
+    main .sp-section-content{padding:5px 15px;}
+    main .sp-section-slide .sp-row{flex-direction: column;}
+    main .sp-section-slide .sp-col-24 .sp-col{width:100%}
+    main .sp-section-slide .sp-col-24 .sp-col.sp-col-1{height: 5px;}
+    main .sp-section-slide .sp-spacer-block{height: 5px;}
 }
 
+
+
+
+@media (max-width: 1250px) {
+    .sp-section-content .sp-block-content{font-size: 15px;line-height: 1.3;}
+    .sp-section-content .sp-text-block{text-align:justify;padding: 5px 0;}
+}
+@media (max-width: 715px) {
+    .sp-section-content .sp-block-content{font-size: 14px;line-height: 1.5;}
+}
 .section-1, .section-2 {
     display: flex;
     flex-wrap: wrap;
 }
-
 .section-1 div, .section-2 div {
     flex: 1;
     padding: 1rem;
@@ -105,11 +240,16 @@ section {
     background: #f4f4f4;
     padding: 2rem;
 }
+#section-3 .sp-button-block .sp-block-content{
+    text-align: center;
+}
 
 .registration {
-    border: 2px solid #000;
     padding: 1rem;
-    margin: 1rem 0;
+}
+.registration h5{font-style: italic; font-size: 26px;}
+@media (max-width: 500px) {
+    .registration h5{font-style: italic; font-size: 18px;}
 }
 
 /* Стили для секции FAQ */
@@ -137,6 +277,7 @@ section {
     padding: 1rem;
     background-color: #f4f4f4;
     font-weight: bold;
+    cursor: help;
 }
 
 .faq-answer {
@@ -153,48 +294,6 @@ section {
     max-height: 500px; /* Достаточно большое значение для раскрытия */
     padding: 1rem;
     opacity: 1;
-}
-
-
-
-/* Additional styles for visibility */
-.button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: #007BFF;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1rem;
-}
-
-/* Стили для раздела 0 */
-.section-0 {
-    background-color: #f8f8f8;
-    padding: 1rem;
-    text-align: center;
-}
-
-.section-0 nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.section-0 nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-.section-0 nav ul li a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.section-0 nav ul li a:hover {
-    color: #0056b3;
 }
 
 /* Плавный скроллинг */
