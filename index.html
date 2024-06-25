@@ -1,594 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Master’s Academy International</title>
 
-    <!-- Подключение CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="all.min.css">
-    <link rel="stylesheet" href="v4-shims.min.css">
-    <link rel="stylesheet" href="website.min.css">
-    <link rel="stylesheet" href="style1711573143.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <!-- Подключение JavaScript -->
-    <!-- <script defer src="scripts.js"></script> -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Master’s Academy International</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Simple Line Font -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <!-- Slider / Carousel -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="WGBI_LOGO.png" type="image/x-icon">
 </head>
+
 <body>
-    <header class="ma-header ma-section ">
-        <div class="ma-section-wrapper">
-            <a class="ma-header__logo" data-cy="header-logo" href="/">
-                <img src="WGBI_LOGO.png" alt="The Master’s Academy International logo">
-                <span class="header-name">Библейский Институт "Слово Благодати"</span>
-            </a>
-            <div class="ma-header__menu-wrap">
-                <button class="ma-header__menu-toggle" id="toggle-button">
-                    <svg class="ma-menu-icon ma-menu-icon--undefined" xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="#303436">
-                        <path class="menu-icon-path" d="M171.667-266q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-266 789-266H171.667Zm0-194q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-460 789-460H171.667Zm0-194q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-654 789-654H171.667Z"></path>
-                    </svg>
-                </button>
-                <div>
-                    <div class="ma-header__menu ">
-                        <ul class="ma-menu__items">
-                            <li class="ma-menu__item"><a href="#section-1">Цель</a></li>
-                            <li class="ma-menu__item"><a href="#section-2">Содержание</a></li>
-                            <li class="ma-menu__item"><a href="#section-3">Регистрация</a></li>
-                            <li class="ma-menu__item"><a href="#section-4">Вопросы и ответы</a></li>
+    <!--============================= HEADER =============================-->
+    <header>
+        <div class="container nav-menu">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="index.html"><img src="images/Logo_Institute_5.png" class="responsive-logo img-fluid" alt="responsive-logo" style="width: 110px;"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                            <span class="icon-menu"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">О нас<!--<span class="sr-only">(current)</span>--></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admission-form.html">Вероучение</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="academics.html">Курсы</a>
+                                </li>
+                                <li class="nav-logo">
+                                    <a href="#" class="navbar-brand"><img src="images/Logo_Institute_5.png" class="img-fluid" alt="logo" style="width: 180px;"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="research.html">История</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="research.html">Ресурсы</a>
+                                </li>
+                                <!--<li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ресурсы
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index-2.html">Home Style Two</a></li>
+                                        <li><a class="dropdown-item" href="index-video.html">Home Video</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                        <li><a class="dropdown-item" href="index-landing-page.html">Landing Page</a></li>
+                                        <li><a class="dropdown-item" href="events.html">Events</a></li>
+                                        <li><a class="dropdown-item" href="course-detail.html">Course Details</a></li>
+                                        <li><a class="dropdown-item" href="campus-life.html">Campus Life</a></li>
+                                        <li><a class="dropdown-item" href="our-teachers.html">Our Teachers</a></li>
+                                        <li><a class="dropdown-item" href="teachers-single.html">Teachers Single</a></li>
+                                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>  
+                                        <li><a class="dropdown-item" href="shortcodes.html">Shortcodes</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Others Pages</a>
+                                            <ul class="dropdown-menu dropdown-menu1"> 
+                                                <li><a class="dropdown-item" href="notice-board.html">Notice Board</a></li>
+                                                <li><a class="dropdown-item" href="chairman-speech.html">Chairman Speech</a></li>
+                                                <li><a class="dropdown-item" href="sample-page.html">Sample Page</a></li>
+                                                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                                <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                                                <li><a class="dropdown-item" href="coming-soon.html">Coming Soon</a></li> 
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>-->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="slider_img">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="images/slider.jpg" alt="First slide">
+                        <div class="carousel-caption d-md-block">
+                            <div class="slider_title">
+                                <h1>Основание</h1>
+                                <h4>Вся христианская жизнь полностью зависит от Писания: <br> Все Писание богодухновенно и полезно для научения, для обличения, для исправления, для наставления в праведности, да будет совершен Божий человек, ко всякому доброму делу приготовлен. <br>2 Тим. 3:16, 17</h4>
+                                <div class="slider-btn">
+                                    <a href="#" class="btn btn-default">SEE Programs</a>
+                                    <a href="#" class="btn btn-default">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="images/slider-2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-md-block">
+                            <div class="slider_title">
+                                <h1>Необходимость</h1>
+                                <h4>Обучение необходимо, независимо от духовного стажа: <br> Когда пойдешь, принеси фелонь, который я оставил в Троаде у Карпа, и книги, особенно кожаные. <br>2 Тим. 4:13</h4>
+                                <div class="slider-btn">
+                                    <a href="#" class="btn btn-default">SEE Programs</a>
+                                    <a href="#" class="btn btn-default">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="images/slider-3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-md-block">
+                            <div class="slider_title">
+                                <h1>Упование</h1>
+                                <h4>Обучение зависимо от Божьего действия:<br> Милости Твоей, Господи, полна земля; научи меня уставам Твоим. Благо сотворил Ты рабу Твоему, Господи, по слову Твоему. Доброму разумению и ведению научи меня, ибо заповедям Твоим я верую. <br>Пс. 118:64-66</h4>
+                                <div class="slider-btn">
+                                    <a href="campus-life.html" class="btn btn-default">Campus Life</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <i class="icon-arrow-left fa-slider" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <i class="icon-arrow-right fa-slider" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+<!--//END HEADER -->
+<!--============================= ABOUT =============================-->
+    <section class="clearfix about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        Библейский Институт
+                        <br>«Слово Благодати»
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Библейский институт "Слово Благодати" (БИСБ) является частью служения
+                        <br>Библейской церкви "Слово Благодати" (БЦСБ) и служит в первую очередь целям и
+                        <br>нуждам этой церкви. Школа оказывает содействие общему церковному процессу в
+                        <br>духовном формировании ее членов и подготовки служителей БЦСБ. Она объединяет в
+                        <br>себе служение подобных школ в России и Украине. Эта школа функционирует при нашей
+                        <br>церкви с 2001 года. Ее конечная цель заключается в прославлении Бога через обучение
+                        <br>членов церкви основным библейским дисциплинам, помогающим каждому верующему
+                        <br>иметь правильное понимание Божьего Слова, преклоняясь перед Богом и практически
+                        <br>применяя понимаемые истины в во всех сферах своей личной жизни.
+                    </p>
+                    <p>
+                        Библейский институт "Слово Благодати" является членом The Master’s Academy
+                        <br>International (TMAI). Его богословская позиция и философия служения находятся в
+                        <br>согласии с позициями данной организации. Все дисциплины, преподаваемые в БИСБ,
+                        <br>соответствуют учебным стандартам TMAI.
+                    </p>
+                        <!--<img src="images/welcom_sign.png" class="img-fluid" alt="welcom-img">-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END ABOUT -->
+    <!--============================= OUR COURSES =============================-->
+    <section class="our_courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Наши курсы</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="courses_box mb-5">
+                        <div class="course-img-wrap">
+                            <img src="images/courses_1.jpg" class="img-fluid" alt="courses-img">
+                            <div class="courses_box-img">
+                                <div class="courses-link-wrap">
+                                    <a href="course-detail.html" class="course-link"><span>course Details </span></a>
+                                    <a href="admission-form.html" class="course-link"><span>Join today </span></a>
+                                </div>
+                                <!-- // end .courses-link-wrap -->
+                            </div>
+                        </div>
+                        <!-- // end .course-img-wrap -->
+                        <div class="courses_icon">
+                            <img src="images/plus-icon.png" class="img-fluid close-icon" alt="plus-icon">
+                        </div>
+                        <a href="course-detail.html" class="course-box-content">
+                            <h3>Как получать пользу от Писания?</h3>
+                            <p>Курс посвящен введению в библейскую герменевтику</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 disable">
+                    <div class="courses_box disable mb-5">
+                        <div class="course-img-wrap">
+                            <img src="images/courses_2.jpg" class="img-fluid" alt="courses-img">
+                            <div class="courses_box-img">
+                                <div class="courses-link-wrap">
+                                    <a href="course-detail.html" class="course-link"><span>course Details </span></a>
+                                    <a href="admission-form.html" class="course-link"><span>Join today </span></a>
+                                </div>
+                                <!-- // end .courses-link-wrap -->
+                            </div>
+                        </div>
+                        <!-- // end .course-img-wrap -->
+                        <div class="courses_icon">
+                            <img src="images/plus-icon.png" class="img-fluid close-icon" alt="plus-icon">
+                        </div>
+                        <a href="course-detail.html" class="course-box-content">
+                            <h3>Апологетика и Проблема зла</h3>
+                            <p>Курс по апологетике с уклоном на осмысление вопроса пребывания зла в мире.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 disable">
+                    <div class="courses_box disable mb-5">
+                        <div class="course-img-wrap">
+                            <img src="images/courses_3.jpg" class="img-fluid" alt="courses-img">
+                            <div class="courses_box-img">
+                                <div class="courses-link-wrap">
+                                    <a href="course-detail.html" class="course-link"><span>course Details </span></a>
+                                    <a href="admission-form.html" class="course-link"><span>Join today </span></a>
+                                </div>
+                                <!-- // end .courses-link-wrap -->
+                            </div>
+                        </div>
+                        <!-- // end .course-img-wrap -->
+                        <div class="courses_icon">
+                            <img src="images/plus-icon.png" class="img-fluid close-icon" alt="plus-icon">
+                        </div>
+                        <a href="course-detail.html" class="course-box-content">
+                            <h3>Обзор Нового Завета. Часть 1</h3>
+                            <p>Курс посвящен обзору повествовательных книг Нового Завета.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="courses_box disable mb-5">
+                        <div class="course-img-wrap">
+                            <img src="images/courses_4.jpg" class="img-fluid" alt="courses-img">
+                            <div class="courses_box-img">
+                                <div class="courses-link-wrap">
+                                    <a href="course-detail.html" class="course-link"><span>course Details </span></a>
+                                    <a href="admission-form.html" class="course-link"><span>Join today </span></a>
+                                </div>
+                                <!-- // end .courses-link-wrap -->
+                            </div>
+                        </div>
+                        <!-- // end .course-img-wrap -->
+                        <div class="courses_icon">
+                            <img src="images/plus-icon.png" class="img-fluid close-icon" alt="plus-icon">
+                        </div>
+                        <a href="course-detail.html" class="course-box-content">
+                            <h3>Богословие 1</h3>
+                            <p>Курс включает введение в библиологию, собственное богословие и антропологию…</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn btn-default btn-courses">View all courses</a>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <!--//END OUR COURSES -->
+    <!--============================= EVENTS =============================-->
+    <section class="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Upcoming Events</h2>
+                    <div class="event-img">
+                        <span class="event-img_date">01-Окт-24</span>
+                        <img src="images/upcoming-event-img.jpg" class="img-fluid" alt="event-img">
+                        <div class="event-img_title">
+                            <h3>Апологетика и  проблема зла</h3>
+                            <p>Курс по апологетике с уклоном на осмысление вопроса пребывания зла в мире.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Important Dates</h2>
+                    <div class="event-date-slide">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="event_date">
+                                    <div class="event-date-wrap">
+                                        <p>01</p>
+                                        <span>Сент.24</span>
+                                    </div>
+                                </div>
+                                <div class="date-description">
+                                    <h3>Как получать пользу от Писания</h3>
+                                    <p>Курс посвящен введению в библейскую герменевтику</p>
+                                    <hr class="event_line">
+                                </div>
+                                <div class="event_date">
+                                    <div class="event-date-wrap">
+                                        <p>01</p>
+                                        <span>Окт.24</span>
+                                    </div>
+                                </div>
+                                <div class="date-description">
+                                    <h3>Апологетика и  проблема зла</h3>
+                                    <p>Курс по апологетике с уклоном на осмысление вопроса пребывания зла в мире.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="event_date">
+                                    <div class="event-date-wrap">
+                                        <p>01</p>
+                                        <span>Нояб.17</span>
+                                    </div>
+                                </div>
+                                <div class="date-description">
+                                    <h3>Обзор Новго Завета: Евангелия и Деяния</h3>
+                                    <p>Курс посвящен обзору повествовательных книг Нового Завета.</p>
+                                    <hr class="event_line">
+                                </div>
+                                <div class="event_date">
+                                    <div class="event-date-wrap">
+                                        <p>01</p>
+                                        <span>Дек.24</span>
+                                    </div>
+                                </div>
+                                <div class="date-description">
+                                    <h3>Богословие 1</h3>
+                                    <p>Курс включает введение в библиологию, собственное богословие и антропологию…</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END EVENTS -->
+    <!--============================= DETAILED CHART =============================
+    <div class="detailed_chart">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom">
+                    <div class="chart-img">
+                        <img src="images/chart-icon_1.png" class="img-fluid" alt="chart_icon">
+                    </div>
+                    <div class="chart-text">
+                        <p><span class="counter">39</span> Teachers
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 chart_bottom chart_top">
+                    <div class="chart-img">
+                        <img src="images/chart-icon_2.png" class="img-fluid" alt="chart_icon">
+                    </div>
+                    <div class="chart-text">
+                        <p><span class="counter">2600</span> Students
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 chart_top">
+                    <div class="chart-img">
+                        <img src="images/chart-icon_3.png" class="img-fluid" alt="chart_icon">
+                    </div>
+                    <div class="chart-text">
+                        <p><span class="counter">56</span> Courses
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="chart-img">
+                        <img src="images/chart-icon_4.png" class="img-fluid" alt="chart_icon">
+                    </div>
+                    <div class="chart-text">
+                        <p><span class="counter">13</span> Years Exp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    //END DETAILED CHART -->
+    <!--============================= OUR BLOG =============================
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our Blog</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <a href="blog-post.html" class="home_blog_link">
+                        <div class="blog-img_box">
+                            <img src="images/blog-img_1.jpg" class="img-fluid blog_display" alt="blog-img">
+                            <div class="blogtitle">
+                                <h3>Eestibulum sodales</h3>
+                                <i class="icon-user fa-common" aria-hidden="true"></i>
+                                <p>by: admin</p>
+                                <i class="icon-speedometer fa-common" aria-hidden="true"></i>
+                                <p>9- Nov-2016</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="blog-post.html" class="home_blog_link">
+                        <div class="blog-img_box">
+                            <img src="images/blog-img_2.jpg" class="img-fluid blog_display" alt="blog-img">
+                            <div class="blogtitle">
+                                <h3>Variations of passages</h3>
+                                <i class="icon-user fa-common" aria-hidden="true"></i>
+                                <p>by: admin</p>
+                                <i class="icon-speedometer fa-common" aria-hidden="true"></i>
+                                <p>9- Nov-2016</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="blog-post.html" class="home_blog_link">
+                        <div class="blog-img_box">
+                            <img src="images/blog-img_3.jpg" class="img-fluid blog_display" alt="blog-img">
+                            <div class="blogtitle">
+                                <h3>Lorem Ipsum passage</h3>
+                                <i class="icon-user fa-common" aria-hidden="true"></i>
+                                <p>by: admin</p>
+                                <i class="icon-speedometer fa-common" aria-hidden="true"></i>
+                                <p>9- Nov-2016</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="blog-post.html" class="home_blog_link">
+                        <div class="blog_hide">
+                            <i class="icon-link" aria-hidden="true"></i>
+                            <p class="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been dummy...</p>
+                            <div class="blogtitle-link">
+                                <i class="icon-user fa-common" aria-hidden="true"></i>
+                                <p>by: admin</p>
+                                <i class="icon-speedometer fa-common" aria-hidden="true"></i>
+                                <p>9- Nov-2016</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="blog-post.html" class="home_blog_link">
+                        <div class="blog-img_box">
+                            <div class="blog-video">
+                                <div class="blog-play_btn"> <img src="images/play-btn.png" alt="play-btn"> </div>
+                                <img src="images/blog-img_4.jpg" class="img-fluid blog_display" alt="blog-img">
+                            </div>
+                            <div class="blogtitle">
+                                <h3>Nam libero tempore</h3>
+                                <i class="icon-user fa-common" aria-hidden="true"></i>
+                                <p>by: admin</p>
+                                <i class="icon-speedometer fa-common" aria-hidden="true"></i>
+                                <p>9- Nov-2016</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="btn btn-default btn-courses">VIEW ALL BLOG</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    //END OUR BLOG -->
+    <!--============================= Instagram Feed =============================
+    <div id="instafeed"></div>
+    //END Instagram feed JS -->
+    <!--============================= FOOTER =============================-->
+    <footer>
+        <div class="container">
+            <!--<div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe">
+                        <h3>Newsletter</h3>
+                        <form id="subscribeform" action="php/subscribe.php" method="post">
+                            <input class="signup_form" type="text" name="email" placeholder="Enter Your Email Address">
+                            <button type="submit" class="btn btn-warning" id="js-subscribe-btn">SUBSCRIBE</button>
+                            <div id="js-subscribe-result" data-success-msg="Success, Please check your email." data-error-msg="Oops! Something went wrong"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>-->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="foot-logo">
+                        <a href="index.html">
+                            <img src="images/Logo_Institute_5.png" class="img-fluid" alt="footer_logo" style="width: 140px;">
+                        </a>
+                        <p>2024 © copyright
+                            <br> All rights reserved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="sitemap">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="admission-form.html">Admissions </a></li>
+                            <li><a href="admission.html">Academics</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- <div class="tweet_box">
+                        <h3>Tweets</h3>
+                        <div class="tweet-wrap">
+                            <div class="tweet"></div>
+                        </div>
+                    </div> -->
+                    <div class="address">
+                        <h3>Адрес:</h3>
+                        <p>1317 NW 12th Ave
+                            <br> Battle Ground, WA, 98604
+                            <br> USA
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="address">
+                        <h3>Наша контактная информация:</h3>
+                        <p>Phone : (360) 687-3962
+                            <br> Email : church@slovo.org
+                            <br> офис: Пн - Пт, с 9:00 до 19:00
+                        </p>
+                        <ul class="footer-social-icons">
+                            <li><a class="facebook" href="https://www.facebook.com/wgbc.org">
+                                <i class="fa fa-facebook fa-fb" aria-hidden="true"></i>
+                            </a></li>
+                            <li><a class="youtube" href="https://www.youtube.com/user/slovovideo/featured">
+                                <i class="fa fa-yb fa-youtube" aria-hidden="true"></i>
+                            </a></li>
+                            <li><a class="instagram" href="https://www.instagram.com/slovomedia/">
+                                <i class="fa fa-in fa-instagram" aria-hidden="true"></i>
+                            </a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-
-        <section class="sp-section sp-scheme-0" data-index="" data-scheme="0" id="section-1">
-            <div class="sp-section-backgrounds">
-                <div class="sp-section-background" style="left: 0%;"></div>
-            </div>
-            <div class="sp-section-slide current" data-label="Main">
-                <div class="sp-section-content">
-                    <div class="sp-grid sp-col sp-col-24">
-                        <div class="sp-row">
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="3e5cad26-9fc2-4a20-9614-f3eba6be35b6" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-11 image-wrapper">
-                                <div class="sp-block sp-image-block init" data-type="image" data-id="7ac79f25-5494-4bad-b22c-ab59c6db07a1" >
-                                    <div class="sp-block-content" >
-                                        <div class="sp-image-holder" style="background-image: url('study-1.jpg');" data-ratio="sixteen-nine"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-11">
-                                <div class="sp-block sp-heading-block " data-type="heading" data-id="cdb5e3f3-18fc-498b-81ad-7a509ee0bd46" style="text-align:center;">
-                                    <div class="sp-block-content" >
-                                        <span class="h2">
-                                            <h2><b>Цель<br></b></h2>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-text-block " data-type="text" data-id="055b50f3-b74d-4a71-a361-fbb608fa9ba4">
-                                    <div class="sp-block-content" >
-                                        Библейский институт "Слово Благодати" (БИСБ) является частью служения Библейской церкви "Слово Благодати" (БЦСБ) и служит в первую очередь целям и нуждам этой церкви. Школа оказывает содействие общему церковному процессу в духовном формировании ее членов и подготовки служителей БЦСБ. Она объединяет в себе служение подобных школ в России и Украине. Эта школа функционирует при нашей церкви с 2001 года. Ее конечная цель заключается в прославлении Бога через обучение членов церкви основным библейским дисциплинам, помогающим каждому верующему иметь правильное понимание Божьего Слова, преклоняясь перед Богом и практически применяя понимаемые истины в во всех сферах своей личной жизни. Библейский институт "Слово Благодати" является членом The Master’s Academy International (TMAI). Его богословская позиция и философия служения находятся в согласии с позициями данной организации. Все дисциплины, преподаваемые в БИСБ, соответствуют учебным стандартам TMAI.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="b8fd2dd0-74e9-48d2-a69d-15b45b42ad0f" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="45" style="height:45px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4aeec9e-a6a5-4f70-9f39-4d36964f70ac" style="text-align:start;">
-                            <div class="sp-block-content" >
-                                <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-divider-block " data-type="divider" data-id="7c7c865d-3e0a-4750-9b49-0e2dac40e245" >
-                            <div class="sp-block-content" >
-                                <div class="sp-divider-holder"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="sp-section sp-scheme-0" data-index="" data-scheme="0" id="section-2">
-            <div class="sp-section-backgrounds">
-                <div class="sp-section-background" style="left: 0%;"></div>
-            </div>
-            <div class="sp-section-slide current" data-label="Main">
-                <div class="sp-section-content">
-                    <div class="sp-grid sp-col sp-col-24">
-                        <div class="sp-row">
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="3e5cad26-9fc2-4a20-9614-f3eba6be35b6" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-11 image-wrapper">
-                                <div class="sp-block sp-image-block init" data-type="image" data-id="7ac79f25-5494-4bad-b22c-ab59c6db07a1" >
-                                    <div class="sp-block-content" >
-                                        <div class="sp-image-holder" style="background-image: url('lib-2.png');" data-ratio="sixteen-nine"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-11">
-                                <div class="sp-block sp-heading-block " data-type="heading" data-id="cdb5e3f3-18fc-498b-81ad-7a509ee0bd46" style="text-align:center;">
-                                    <div class="sp-block-content" >
-                                        <span class="h2">
-                                            <h2><b>Содержание курсов<br></b></h2>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-text-block " data-type="text" data-id="055b50f3-b74d-4a71-a361-fbb608fa9ba4">
-                                    <div class="sp-block-content" >
-                                        <b>БИСБ предоставляет несколько возможных программ обучения:</b>
-                                        <ol>
-                                            <li>Зрелый христианин (общее образование для членов церкви)</li>
-                                            <li>Зрелый служитель (направлена на проповедников/учителей церкви, а так же душепопечителей)</li>
-                                            <li>Зрелый пастор (в поддержку пасторов)</li>
-                                        </ol>
-                                        <b>В настоящее время доступна к регистрации только одна программа обучения – Зрелый христианин.</b> Этот курс содержит такие дисциплины:
-                                        <ul>
-                                            <li>Как получать пользу от Писания?</li>
-                                            <li>Богословие (все разделы, разбитые на 4 сессии)</li>
-                                            <li>Обзор книг Ветхого Завета</li>
-                                            <li>Обзор книг Нового Завета</li>
-                                            <li>Апологетика и Благовестие</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="b8fd2dd0-74e9-48d2-a69d-15b45b42ad0f" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="45" style="height:45px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4aeec9e-a6a5-4f70-9f39-4d36964f70ac" style="text-align:start;">
-                            <div class="sp-block-content" >
-                                <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-divider-block " data-type="divider" data-id="7c7c865d-3e0a-4750-9b49-0e2dac40e245" >
-                            <div class="sp-block-content" >
-                                <div class="sp-divider-holder"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="sp-section sp-scheme-0" data-index="" data-scheme="0" id="section-3">
-            <div class="sp-section-backgrounds">
-                <div class="sp-section-background" style="left: 0%;"></div>
-            </div>
-            <div class="sp-section-slide current" data-label="Main">
-                <div class="sp-section-content">
-                    <div class="sp-grid sp-col sp-col-24">
-                        <div class="sp-row">
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="3e5cad26-9fc2-4a20-9614-f3eba6be35b6" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-22">
-                                <div class="sp-block sp-heading-block " data-type="heading" data-id="cdb5e3f3-18fc-498b-81ad-7a509ee0bd46" style="text-align:center;">
-                                    <div class="sp-block-content" >
-                                        <span class="h2">
-                                            <h2><b>Регистрация<br></b></h2>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-text-block " data-type="text" data-id="055b50f3-b74d-4a71-a361-fbb608fa9ba4">
-                                    <div class="sp-block-content" >
-                                        <div class="registration">
-                                            <h5>Зрелый христианин</h5>
-                                        </div>
-                                        <p>Необоходимые требования:</p>
-                                        <ul>
-                                            <li>Быть возрожденным христианином – Написаное свидетельство об обращении</li>
-                                            <li>Быть крещенным по вере – Свидетельство о крещении</li>
-                                            <li>Быть в мире с церковью (не на церковной дисциплине) – Письменная рекомендация от пастора церкви.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-button-block " data-type="button" style="padding-top:15px;padding-bottom:15px;padding-left:35px;padding-right:35px;">
-                                    <div class="sp-block-content">
-                                        <span class="text-reset">
-                                            <a class="sp-button" href="http://ru.wgbc.org/children-ministry-ru" target="_blank" data-label="ПОДРОБНЕЕ" data-padding="10" data-text-color="@color3" style="padding:10px;color:#776e73 !important;">
-                                                Регистрация
-                                            </a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="b8fd2dd0-74e9-48d2-a69d-15b45b42ad0f" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="45" style="height:45px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4aeec9e-a6a5-4f70-9f39-4d36964f70ac" style="text-align:start;">
-                            <div class="sp-block-content" >
-                                <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-divider-block " data-type="divider" data-id="7c7c865d-3e0a-4750-9b49-0e2dac40e245" >
-                            <div class="sp-block-content" >
-                                <div class="sp-divider-holder"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="sp-section sp-scheme-0" data-index="" data-scheme="0" id="section-4">
-            <div class="sp-section-backgrounds">
-                <div class="sp-section-background" style="left: 0%;"></div>
-            </div>
-            <div class="sp-section-slide current" data-label="Main">
-                <div class="sp-section-content">
-                    <div class="sp-grid sp-col sp-col-24">
-                        <div class="sp-row">
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="3e5cad26-9fc2-4a20-9614-f3eba6be35b6" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-22">
-                                <div class="sp-block sp-heading-block " data-type="heading" data-id="cdb5e3f3-18fc-498b-81ad-7a509ee0bd46" style="text-align:center;">
-                                    <div class="sp-block-content" >
-                                        <span class="h2">
-                                            <h2><b>Вопросы и ответы<br></b></h2>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-text-block " data-type="text" data-id="055b50f3-b74d-4a71-a361-fbb608fa9ba4">
-                                    <div class="sp-block-content" >
-                                        <div class="faq-item">
-                                            <div class="faq-question">Как проходит регистрация?</div>
-                                            <div class="faq-answer">После загрузки всех необходимых данных (анкета, свидетельство и рекомендация пастора церкви) приемная комиссия рассмотрит ваше заявление, после чего вы получите письменное уведомление о зачислении с дальнейшими инструкциями.</div>
-                                        </div>
-                                        <div class="faq-item">
-                                            <div class="faq-question">Сколько стоит обучение?</div>
-                                            <div class="faq-answer">Да обучение сколько то стоит. Цена ранжированная и зависит от страны вашего проживания. Для жителей США ценна 70$ за юнит. Для других стран будет уточнено в письме при регистрации (в районе 1000р за юнит)</div>
-                                        </div>
-                                        <div class="faq-item">
-                                            <div class="faq-question">Могу ли я расчитывать на финансовую поддержку?</div>
-                                            <div class="faq-answer">В индивидуальным порядке мы готовы рассмотреть вашу жизненную ситуацию. Для этого вам нужно сообщить об этом при подаче заявления.</div>
-                                        </div>
-                                        <div class="faq-item">
-                                            <div class="faq-question">Какой диплом я получу?</div>
-                                            <div class="faq-answer">Пройдя весь курс вы получите официальный диплом TMAI, который будет катироваться при дальнейшем продолжении обучения на магисторской программе. </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-1">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="b8fd2dd0-74e9-48d2-a69d-15b45b42ad0f" >
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="45" style="height:45px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4aeec9e-a6a5-4f70-9f39-4d36964f70ac" style="text-align:start;">
-                            <div class="sp-block-content" >
-                                <div class="spacer-holder" data-height="30" style="height:30px;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer id="sp-footer">
-        <section class="sp-section sp-scheme-4" data-index="" data-scheme="4">
-            <div class="sp-section-backgrounds">
-                <div class="sp-section-background" style="left: 0%;"></div>
-            </div>
-            <div class="sp-section-slide current" data-label="Main" data-layout="desktop">
-                <div class="sp-section-content" style="font-size:16.5px;line-height:36px;">
-                    <div class="sp-col sp-mobile-col">
-                        <div class="sp-block sp-image-block init" data-type="image" data-id="24200512-5afc-4e24-9f8e-971542a4cfe8" style="">
-                            <div class="sp-block-content" style="">
-                                <div class="sp-image-holder" style="background-image: url(&quot;https://storage2.snappages.site/4T67DJ/assets/images/11609013_92x77.svg&quot;);" data-source="4T67DJ/assets/images/11609013_92x77.svg">
-                                    <img src="https://storage2.snappages.site/4T67DJ/assets/images/11609013_92x77.svg" class="fill" alt="">
-                                    <div class="sp-image-title" style="display: block;"></div>
-                                    <div class="sp-image-caption" style="display: block;"></div>
-                                    <div class="sp-resizer">
-                                        <iframe></iframe>
-                                        <iframe></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="ccfcc4b3-e05d-430c-a8d3-709ee42e8596" style="text-align:center;">
-                            <div class="sp-block-content" style="">
-                                <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="bd5afb92-20ad-412e-b10c-aa6534b07f9a" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="2em">
-                                    <h3 style="font-size:2em;color:#ffffff;">
-                                        <b>Богослужения:</b>
-                                    </h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="b3c40939-559c-4858-9e38-0b18ba4bec3a" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                    <h3 style="font-size:1.6em;color:#ffffff;">
-                                        ВC: 9:00 - 10:45, рус.<br>&nbsp; &nbsp; &nbsp; &nbsp;11:30 - 13:15, анг.<br>СР: 19:00 - 20:30, рус.
-                                    </h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4b2128d-a45c-496c-a0d4-0a20ef35cd4d" style="text-align:center;">
-                            <div class="sp-block-content" style="">
-                                <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="1df4e860-0c9c-4d15-96e4-a857fb3f22c4" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="2em">
-                                    <h3 style="font-size:2em;color:#ffffff;"><b>Адрес:</b></h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="5b822b78-caac-4215-bf1a-8c2b0c4b6e86" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                    <h3 style="font-size:1.6em;color:#ffffff;">1317 NW 12th Ave<br>Battle Ground, WA, 98604<br>USA</h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="6d04c1aa-f2a5-47dd-a2db-2d2e6c1c2030" style="text-align:center;">
-                            <div class="sp-block-content" style="">
-                                <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="25c0b4ae-2738-42fb-b8ad-b1ca0ae43647" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="2em">
-                                    <h3 style="font-size:2em;color:#ffffff;"><b>Наша контактная информация</b><b>:</b></h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-heading-block " data-type="heading" data-id="0c5e85f8-6a10-4b42-adab-0dc60e909277" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                            <div class="sp-block-content" style="">
-                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                    <h3 style="font-size:1.6em;color:#ffffff;">(360) 687-3962<br><u>church@slovo.org<br></u>офис: Пн - Пт, с 9:00 до 19:00</h3>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="sp-block sp-social-block " data-type="social" data-id="2561de3a-9994-4c97-bdd5-8c85c651816a" style="text-align:center;padding-top:15px;padding-bottom:15px;">
-                            <div class="sp-block-content" style="">
-                                <div class="sp-social-holder" style="font-size:19px;margin-top:-5px;" data-style="colors-outline" data-shape="circle">
-                                    <a class="facebook" href="https://www.facebook.com/wgbc.org" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                        <i class="fa fa-fw fa-facebook"></i>
-                                    </a>
-                                    <a class="youtube" href="https://www.youtube.com/user/slovovideo/featured" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                        <i class="fa fa-fw fa-youtube"></i>
-                                    </a>
-                                    <a class="instagram" href="https://www.instagram.com/slovomedia/" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                        <i class="fa fa-fw fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="sp-grid sp-col sp-col-24">
-                        <div class="sp-row">
-                            <div class="sp-col sp-col-5">
-                                <div class="sp-block sp-image-block init" data-type="image" data-id="24200512-5afc-4e24-9f8e-971542a4cfe8" >
-                                    <div class="sp-block-content" >
-                                        <div class="sp-image-holder" style="background-image: url(&quot;https://storage2.snappages.site/4T67DJ/assets/images/11609013_92x77.svg&quot;);" data-source="4T67DJ/assets/images/11609013_92x77.svg">
-                                            <img src="https://storage2.snappages.site/4T67DJ/assets/images/11609013_92x77.svg" class="fill" alt="">
-                                            <div class="sp-image-title" style="display: block;"></div>
-                                            <div class="sp-image-caption" style="display: block;"></div>
-                                            <div class="sp-resizer"><iframe></iframe><iframe></iframe></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-10">
-                                <div class="sp-row">
-                                    <div class="sp-col sp-col-5">
-                                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="ccfcc4b3-e05d-430c-a8d3-709ee42e8596" style="text-align:center;">
-                                            <div class="sp-block-content" >
-                                                <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="sp-block sp-heading-block " data-type="heading" data-id="bd5afb92-20ad-412e-b10c-aa6534b07f9a" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                            <div class="sp-block-content" >
-                                                <span class="h3" data-color="#ffffff" data-size="2em">
-                                                    <h3 style="font-size:2em;color:#ffffff;">
-                                                        <b>Богослужения:</b>
-                                                    </h3>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="sp-block sp-heading-block " data-type="heading" data-id="b3c40939-559c-4858-9e38-0b18ba4bec3a" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                            <div class="sp-block-content" >
-                                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                                    <h3 style="font-size:1.6em;color:#ffffff;">ВC: 9:00 - 10:45, рус.<br>&nbsp; &nbsp; &nbsp; &nbsp;11:30 - 13:15, анг.<br>СР: 19:00 - 20:30, рус.</h3>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-col sp-col-5">
-                                        <div class="sp-block sp-spacer-block " data-type="spacer" data-id="d4b2128d-a45c-496c-a0d4-0a20ef35cd4d" style="text-align:center;">
-                                            <div class="sp-block-content" >
-                                                <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="sp-block sp-heading-block " data-type="heading" data-id="1df4e860-0c9c-4d15-96e4-a857fb3f22c4" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                            <div class="sp-block-content" >
-                                                <span class="h3" data-color="#ffffff" data-size="2em">
-                                                    <h3 style="font-size:2em;color:#ffffff;">
-                                                        <b>Адрес:</b>
-                                                    </h3>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="sp-block sp-heading-block " data-type="heading" data-id="5b822b78-caac-4215-bf1a-8c2b0c4b6e86" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                            <div class="sp-block-content" >
-                                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                                    <h3 style="font-size:1.6em;color:#ffffff;">
-                                                        1317 NW 12th Ave<br>Battle Ground, WA, 98604<br>USA
-                                                    </h3>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sp-col sp-col-9">
-                                <div class="sp-block sp-spacer-block " data-type="spacer" data-id="6d04c1aa-f2a5-47dd-a2db-2d2e6c1c2030" style="text-align:center;">
-                                    <div class="sp-block-content" >
-                                        <div class="spacer-holder" data-height="65" style="height:65px;"></div>
-                                    </div>
-                                </div>
-                                <div class="sp-block sp-heading-block " data-type="heading" data-id="25c0b4ae-2738-42fb-b8ad-b1ca0ae43647" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                    <div class="sp-block-content" >
-                                        <span class="h3" data-color="#ffffff" data-size="2em">
-                                            <h3 style="font-size:2em;color:#ffffff;">
-                                                <b>Наша контактная информация</b>
-                                                <b>:</b>
-                                            </h3>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="sp-row">
-                                    <div class="sp-col sp-col-5">
-                                        <div class="sp-block sp-heading-block " data-type="heading" data-id="0c5e85f8-6a10-4b42-adab-0dc60e909277" style="text-align:left;padding-top:0px;padding-bottom:0px;">
-                                            <div class="sp-block-content" >
-                                                <span class="h3" data-color="#ffffff" data-size="1.6em">
-                                                    <h3 style="font-size:1.6em;color:#ffffff;">
-                                                        (360) 687-3962<br><u>church@slovo.org<br></u>офис: Пн - Пт, с 9:00 до 19:00
-                                                    </h3>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sp-col sp-col-4">
-                                        <div class="sp-block sp-social-block " data-type="social" data-id="2561de3a-9994-4c97-bdd5-8c85c651816a" style="text-align:center;padding-top:15px;padding-bottom:15px;">
-                                            <div class="sp-block-content" >
-                                                <div class="sp-social-holder" style="font-size:19px;margin-top:-5px;" data-style="colors-outline" data-shape="circle">
-                                                    <a class="facebook" href="https://www.facebook.com/wgbc.org" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                                        <i class="fa fa-fw fa-facebook"></i>
-                                                    </a>
-                                                    <a class="youtube" href="https://www.youtube.com/user/slovovideo/featured" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                                        <i class="fa fa-fw fa-youtube"></i>
-                                                    </a>
-                                                    <a class="instagram" href="https://www.instagram.com/slovomedia/" target="_blank" style="margin-right:5px;margin-top:5px;">
-                                                        <i class="fa fa-fw fa-instagram"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const faqItems = document.querySelectorAll('.faq-item');
-    
-            faqItems.forEach(item => {
-                const question = item.querySelector('.faq-question');
-                const answer = item.querySelector('.faq-answer');
-    
-                question.addEventListener('click', function() {
-                    answer.classList.toggle('show');
-                });
-            });
-
-            document.getElementById("toggle-button").addEventListener("click", function(event) {
-                event.stopPropagation();
-                var path = this.querySelector(".menu-icon-path");
-
-                if (this.classList.contains("open")) {
-                    closeMenu();
-                } else {
-                    openMenu();
-                }
-            });
-
-            function openMenu() {
-                var button = document.getElementById("toggle-button");
-                var path = button.querySelector(".menu-icon-path");
-                var pathData = "M481-443.898 269.949-232.513q-7.795 7.795-18.334 8.013-10.538.218-19.102-9.013-8.231-8.564-7.731-17.718t8.731-18.384L443.564-480 232.513-692.385q-7.462-7.795-7.846-17.333-.385-9.538 7.846-18.769 8.564-8.564 18.718-8.731 10.154-.166 18.718 8.398L481-517.436 690.051-728.82q7.795-7.795 18.334-8.013 10.538-.218 19.102 8.346 8.231 9.231 7.731 18.384-.5 9.154-8.064 17.718L517.102-480l210.052 210.385q6.795 7.461 7.679 17.5.885 10.038-7.346 18.602-8.564 9.231-18.718 9.398-10.154.166-18.718-8.398L481-443.898Z";
-                path.setAttribute("d", pathData);
-                button.classList.add("open");
-                document.querySelector(".ma-header__menu-wrap .ma-header__menu").classList.add("open");
-
-                // Добавление слушателей событий
-                document.addEventListener("click", outsideClickListener);
-                window.addEventListener("scroll", scrollListener);
-            }
-
-            function closeMenu() {
-                var button = document.getElementById("toggle-button");
-                var path = button.querySelector(".menu-icon-path");
-                var pathData = "M171.667-266q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-266 789-266H171.667Zm0-194q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-460 789-460H171.667Zm0-194q-8.767 0-14.883-6.287-6.117-6.286-6.117-14.666t6.117-14.38q6.116-6 14.883-6H789q8.116 0 14.225 6.164 6.108 6.163 6.108 14.543 0 8.38-6.108 14.503Q797.116-654 789-654H171.667Z";
-                path.setAttribute("d", pathData);
-                button.classList.remove("open");
-                document.querySelector(".ma-header__menu-wrap .ma-header__menu").classList.remove("open");
-
-                // Удаление слушателей событий
-                document.removeEventListener("click", outsideClickListener);
-                window.removeEventListener("scroll", scrollListener);
-            }
-
-            function outsideClickListener(event) {
-                var menuWrap = document.querySelector(".ma-header__menu-wrap");
-                var toggleButton = document.getElementById("toggle-button");
-                if (!menuWrap.contains(event.target) && !toggleButton.contains(event.target)) {
-                    closeMenu();
-                }
-            }
-
-            function scrollListener() {
-                if (window.scrollX > 0) {
-                    closeMenu();
-                }
-            }
-        });
-    </script>      
+    <!--//END FOOTER -->
+    <!-- jQuery, Bootstrap JS. -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <!--<script src="js/instafeed.min.js"></script>-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/validate.js"></script>
+    <!-- <script src="js/tweetie.min.js"></script> -->
+    <!-- Subscribe -->
+    <!-- <script src="js/subscribe.js"></script> -->
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
