@@ -54,10 +54,17 @@ Author:
   top: 0; }
 
 .nav-logo {
-  margin: 0 !important; }
+  margin: 0 !important; 
+  width: 180px;
+}
 
 .responsive-logo {
+  width: 110px;
   display: none; }
+@media (max-width: 550px) {
+  .responsive-logo {width: 70px;}
+  .navbar-light .navbar-toggler{top: 20px;}
+}
 
 .icon-menu {
   color: #cbb58b; }
@@ -73,7 +80,8 @@ Author:
 
 @media (min-width: 767px) {
   .btn + .btn {
-    margin-left: 22px; } }
+    margin-left: 22px; }
+}
 
 .btn-default:hover {
   color: #fff;
@@ -159,7 +167,9 @@ Author:
   color: #cbb58b; }
 
 .bg-faded {
-  background: none; }
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 10px 10px;
+}
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -176,6 +186,7 @@ Author:
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
+  text-shadow: 1px 1px 6px black;
   font-size: 19px; }
 
 .navbar-light .navbar-toggler {
@@ -214,7 +225,12 @@ Author:
     margin: 28px 6px; }
   .navbar-light .navbar-toggler2 {
     margin: 0 !important; }
+  .navbar-light .navbar-nav .nav-item{
+    background-color: transparent;
+    border-radius: 0;
+  }
   .navbar-light .navbar-nav .nav-link {
+    text-shadow: none;
     color: #2d2d2d; }
   .dropdown .dropdown-menu {
     background-color: #fff;
@@ -356,8 +372,8 @@ a {
   .slider_title h1 {
     font-size: 42px; }
   .slider_title h4 {
-    font-size: 19px;
-    line-height: 1.5; }
+    font-size: 15px;
+    line-height: 1.2; }
   .btn-default {
     width: 50%;
     margin-bottom: 10px;
@@ -369,8 +385,7 @@ a {
     .slider_title h1 {
       font-size: 32px; }
     .slider_title h4 {
-      font-size: 18px;
-      line-height: 1.5; }
+      display: none; }
   .btn-default {
     width: 100%;
     margin-bottom: 10px;
@@ -397,6 +412,9 @@ a {
   .about img {
     margin: 0 auto;
     display: block; }
+@media (max-width: 550px) {
+  section.mob_p {padding: 50px 0 25px;}
+}
 
 /* ==============================================================
    OUR COURSES
