@@ -392,7 +392,7 @@ a {
     border: none;
     padding: 0; } }
 
-.main_header{height: 420px;}
+.main_header{height: 420px;background-size: cover;background-repeat: no-repeat;}
 .main_header h1 {
   text-align: center;
   color: #fff;
