@@ -567,6 +567,7 @@ a {
 .course-box-content {
   display: block;
   padding: 30px 20px; }
+span.course-box-content{cursor: default;}
 
 .courses_icon {
   -webkit-transition: all 0.5s;
