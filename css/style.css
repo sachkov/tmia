@@ -530,22 +530,22 @@ a {
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s; }
 
-.our_courses .courses_box.disable:hover .courses_box-img {
+/* .our_courses .courses_box.disable:hover .courses_box-img {
     opacity: 0;
-}
+} */
 
-.our_courses .courses_box.disable:hover .courses_icon {
+/* .our_courses .courses_box.disable:hover .courses_icon {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-}
+} */
 
-.our_courses .courses_box.disable:hover .course-link:first-child {
+/* .our_courses .courses_box.disable:hover .course-link:first-child {
     -webkit-animation: none;
     animation: none;
-}
+} */
 
-.our_courses .courses_box.disable:hover .course-link:first-child span:after {
+/* .our_courses .courses_box.disable:hover .course-link:first-child span:after {
     -webkit-animation: none;
     animation: none;
 }
@@ -553,14 +553,14 @@ a {
 .our_courses .courses_box.disable:hover .course-link:nth-child(2) {
     -webkit-animation: none;
     animation: none;
-}
+} */
 
 .our_courses course-img-wrap:hover .course-link:nth-child(2) span:after {
     -webkit-animation: none;
     animation: none;
 }
 
-.our_courses .courses_box.disable .course-img-wrap img{filter: brightness(50%);}
+/* .our_courses .courses_box.disable .course-img-wrap img{filter: brightness(50%);} */
 .course-img-wrap {
   position: relative; }
 
@@ -592,12 +592,13 @@ a {
   -ms-transform: translateX(-50px);
   transform: translateX(-50px);
   opacity: 0;
-  margin-left: 30px; }
+}
+span.course-link{cursor: default;}
   .course-link span {
     position: relative;
     display: inline-block; }
 
-.course-link span:after {
+/* .course-link span:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -607,14 +608,14 @@ a {
   height: 1px;
   background: #FFF;
   left: 100%;
-  margin-left: 0; }
+  margin-left: 0; } */
 
 .courses-link-wrap {
   overflow: hidden;
   position: absolute;
   top: 50%;
   width: 100%;
-  right: 15px;
+  text-align: center;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
@@ -635,9 +636,9 @@ a {
   z-index: 2; }
   .courses_box-img a :hover {
     opacity: 0.8; }
-  .courses_box-img a span {
+  .courses_box-img a span, .courses_box-img span.course-link span{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
     padding-right: 10px; }
