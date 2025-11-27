@@ -53,6 +53,17 @@ Author:
   right: 0;
   top: 0; }
 
+nav.navbar ul.navbar-nav a.free_link {
+  background-color: rgba(203,181,139, 0.8);
+  border-radius: 18px;
+  border: #E9DCC4 2px solid;
+
+}
+nav.navbar ul.navbar-nav a.free_link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black
+}
+
 .nav-logo {
   margin: 0 !important; 
   width: 180px;
@@ -169,7 +180,7 @@ Author:
 .bg-faded {
   background-color: transparent;
 }
-
+.nav-link{padding: 6px 8px;}
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
   color: #e0c898;
@@ -217,7 +228,7 @@ Author:
     background-color: #fafafa; }
   .navbar {
     padding: 0;
-    margin: -113px 0 0 0; }
+    margin: -80px 0 0 0; }
   .navbar-nav {
     padding: 10px 10px 10px 10px; }
   .navbar-light .navbar-toggler {
@@ -231,6 +242,17 @@ Author:
   .navbar-light .navbar-nav .nav-link {
     text-shadow: none;
     color: #2d2d2d; }
+
+  .navbar.navbar-light .navbar-nav .nav-link.free_link {
+    background-color: rgba(203,181,139, 0.8);
+    border-radius: 18px;
+    color: white;
+  }
+  nav.navbar.navbar-light ul.navbar-nav a.free_link:hover {
+    background-color: white;
+    color: #cbb58b;
+  }
+
   .dropdown .dropdown-menu {
     background-color: #fff;
     border: 1px solid #cbb58b; }
