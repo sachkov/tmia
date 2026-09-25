@@ -1711,6 +1711,10 @@ select.form-control.custom-select {
     list-style: none;
     padding: 0 0 12px 36px;
     font-size: 16px; }
+  .admission_discription ul.list-process li {
+    background: url(../images/discription-icon-book.png) no-repeat 5px 3px; }
+  .admission_discription ul.list-terms li {
+    background: url(../images/discription-icon-user.png) no-repeat 5px 3px; }
 
 .admission-pdf {
   background: #f6f6f6;
